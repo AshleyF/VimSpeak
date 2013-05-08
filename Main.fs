@@ -405,7 +405,9 @@ let normalMode =
             Optional count
             Choice [
                 Word ("after",                    "a",     Some "insert")
+                Word ("append",                   "a",     Some "insert")
                 Word ("after-line",               "A",     Some "insert")
+                Word ("append-line",              "A",     Some "insert")
                 Word ("insert",                   "i",     Some "insert")
                 Word ("insert-before-line",       "I",     Some "insert")
                 Word ("insert-column-zero",       "gI",    Some "insert")
